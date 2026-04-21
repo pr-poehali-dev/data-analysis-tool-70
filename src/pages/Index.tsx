@@ -184,9 +184,14 @@ const Index = () => {
           >
             Купить мод
           </a>
-          <button className="bg-white/10 border border-white/20 text-white font-semibold py-3 px-8 rounded-md hover:bg-white/20 transition duration-300 text-lg backdrop-blur-sm">
+          <a
+            href="https://drive.google.com/file/d/1edw31qtVImvPzE_XKMbN_xIVQ8UPyvu0/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white/10 border border-white/20 text-white font-semibold py-3 px-8 rounded-md hover:bg-white/20 transition duration-300 text-lg backdrop-blur-sm"
+          >
             Скачать демо
-          </button>
+          </a>
         </div>
       </div>
 
