@@ -149,7 +149,7 @@ const Index = () => {
             <li><a href="#pricing" className="hover:text-[#4fc3f7] transition">Купить</a></li>
             <li>
               <a
-                href="https://vk.com"
+                href="https://vk.ru/nhl_pc_global"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#4fc3f7] transition flex items-center gap-1"
@@ -300,7 +300,7 @@ const Index = () => {
             Отзывы покупателей NHL 26, скриншоты, новости мода, полезные статьи и анонсы — всё в нашем сообществе
           </p>
           <a
-            href="https://vk.com"
+            href="https://vk.ru/nhl_pc_global"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-[#0077ff] hover:bg-[#005ecc] text-white font-bold py-3 px-8 rounded-md transition duration-300"
