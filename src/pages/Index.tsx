@@ -376,31 +376,31 @@ const Index = () => {
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-[#4fc3f7]/20 flex items-center justify-center text-[#4fc3f7] font-bold">А</div>
                 <div>
-                  <div className="font-semibold text-sm">Алексей</div>
+                  <div className="font-semibold text-sm">Александр Семенов</div>
                   <div className="text-yellow-400 text-xs">★★★★★</div>
                 </div>
               </div>
-              <p className="text-gray-400 text-sm">«Играю с момента выхода NHL 26, мод огонь! Составы актуальные, работает стабильно. Жду 27-й!»</p>
+              <p className="text-gray-400 text-sm">«Работает все отлично, затягивает с первых минут игры) Графика, качество мода отличная, рекомендую платную версию!»</p>
             </div>
             <div className="bg-white/5 rounded-xl p-6 border border-white/10">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-[#4fc3f7]/20 flex items-center justify-center text-[#4fc3f7] font-bold">Д</div>
+                <div className="w-10 h-10 rounded-full bg-[#4fc3f7]/20 flex items-center justify-center text-[#4fc3f7] font-bold">М</div>
                 <div>
-                  <div className="font-semibold text-sm">Дмитрий</div>
+                  <div className="font-semibold text-sm">Макс</div>
                   <div className="text-yellow-400 text-xs">★★★★★</div>
                 </div>
               </div>
-              <p className="text-gray-400 text-sm">«Установил за 10 минут по инструкции. Всё понятно, поддержка отвечает быстро. Рекомендую!»</p>
+              <p className="text-gray-400 text-sm">«Все работает отлично. Давно искал. Мод бомба 💥 Графика 🔥 Спасибо тем, кто над ним работал 👍»</p>
             </div>
             <div className="bg-white/5 rounded-xl p-6 border border-white/10">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-[#4fc3f7]/20 flex items-center justify-center text-[#4fc3f7] font-bold">С</div>
+                <div className="w-10 h-10 rounded-full bg-[#4fc3f7]/20 flex items-center justify-center text-[#4fc3f7] font-bold">R</div>
                 <div>
-                  <div className="font-semibold text-sm">Сергей</div>
-                  <div className="text-yellow-400 text-xs">★★★★☆</div>
+                  <div className="font-semibold text-sm">Roman Tikhonovich</div>
+                  <div className="text-yellow-400 text-xs">★★★★★</div>
                 </div>
               </div>
-              <p className="text-gray-400 text-sm">«Наконец-то НХЛ на ПК с нормальными составами. Брал NHL 26 — остался доволен, беру и 27-й.»</p>
+              <p className="text-gray-400 text-sm">«NHL 16 на базе RPCS3 с этим модом выглядит на удивление бодро. Колоссальная работа: рейтинги соответствуют реальности, переходы учтены, лёд и формы обновлены. Лучший вариант для тех, кто ищет качественный хоккей на ПК.»</p>
             </div>
           </div>
           <div className="text-center">
