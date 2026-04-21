@@ -34,7 +34,7 @@ function ReviewsSlider() {
     <section className="relative z-10 bg-[#050a18] py-16 border-t border-white/10">
       <div className="max-w-6xl mx-auto px-4">
         <h3 className="text-3xl md:text-4xl font-bold text-center mb-4">Отзывы покупателей</h3>
-        <p className="text-gray-400 text-center mb-12 max-w-xl mx-auto">Что говорят те, кто уже играл в NHL 26 PC Mod</p>
+        <p className="text-gray-400 text-center mb-12 max-w-xl mx-auto">Что говорят те, кто уже играл в NHL PC Mod</p>
         <div className="max-w-2xl mx-auto">
           <div className="bg-white/5 rounded-xl p-8 border border-white/10 min-h-[180px] flex flex-col justify-between">
             <div className="flex items-center gap-3 mb-5">
@@ -93,7 +93,7 @@ export default function CommunitySection() {
           <Icon name="Users" size={48} className="text-[#4fc3f7] mx-auto mb-4" />
           <h3 className="text-3xl font-bold mb-4">Сообщество ВКонтакте</h3>
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
-            Отзывы покупателей NHL 26, скриншоты, новости мода, полезные статьи и анонсы — всё в нашем сообществе
+            Отзывы покупателей NHL на пк, скриншоты, новости мода, полезные статьи и анонсы — всё в нашем сообществе
           </p>
           <a
             href="https://vk.ru/nhl_pc_global"

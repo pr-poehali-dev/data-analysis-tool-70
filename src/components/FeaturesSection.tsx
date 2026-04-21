@@ -7,14 +7,14 @@ export default function FeaturesSection() {
       <section id="features" className="relative z-10 mt-[100vh] bg-[#050a18] pt-20 pb-16">
         <div className="max-w-6xl mx-auto px-4">
           <h3 className="text-3xl md:text-4xl font-bold text-center mb-4">Что внутри мода?</h3>
-          <p className="text-gray-400 text-center mb-12 max-w-xl mx-auto">Реальный НХЛ-опыт на вашем ПК — обновлённые данные сезона 2025</p>
+          <p className="text-gray-400 text-center mb-12 max-w-xl mx-auto">Реальный НХЛ-опыт на вашем ПК — обновлённые данные сезона 2026</p>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-[#4fc3f7]/40 transition">
               <div className="text-[#4fc3f7] mb-4">
                 <Icon name="Trophy" size={32} />
               </div>
               <h4 className="text-xl font-semibold mb-3">Актуальные составы</h4>
-              <p className="text-gray-400">Все 32 команды НХЛ с реальными игроками, рейтингами и формой сезона 2024/25.</p>
+              <p className="text-gray-400">30 команд НХЛ + Вегас и Сиэтл через замену — реальные игроки, рейтинги и форма сезона 2026/27.</p>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-[#4fc3f7]/40 transition">
               <div className="text-[#4fc3f7] mb-4">

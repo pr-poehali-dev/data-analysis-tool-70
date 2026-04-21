@@ -54,8 +54,8 @@ export default function PricingSection() {
                 <div className="text-gray-500 text-xs mt-1">вместо 1 290 ₽</div>
               </div>
               <ul className="text-gray-300 space-y-2 mb-8 text-sm flex-1">
-                <li>✓ Все 32 команды НХЛ</li>
-                <li>✓ Полный сезон 2024/25</li>
+                <li>✓ Все 30 команд НХЛ</li>
+                <li>✓ Полный сезон 26/27</li>
                 <li>✓ Все арены и форма</li>
                 <li>✓ Поддержка и обновления</li>
                 <li>✓ Инструкция по установке</li>
@@ -84,8 +84,8 @@ export default function PricingSection() {
               <div className="text-gray-500 text-xs mt-1">брал после 14.04.2026 — 1 190 ₽</div>
             </div>
             <ul className="text-gray-300 space-y-2 mb-8 text-sm flex-1">
-              <li>✓ Все 32 команды НХЛ</li>
-              <li>✓ Полный сезон 2024/25</li>
+              <li>✓ Все 30 команд НХЛ</li>
+              <li>✓ Полный сезон 26/27</li>
               <li>✓ Все арены и форма</li>
               <li>✓ Поддержка и обновления</li>
               <li>✓ Инструкция по установке</li>

@@ -151,14 +151,14 @@ export default function HeroSection() {
       <div className="hidden md:block">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 px-4 w-full">
           <div className="inline-block bg-[#4fc3f7]/10 border border-[#4fc3f7]/30 rounded-full px-4 py-1 text-[#4fc3f7] text-sm mb-6">
-            🏒 Сезон 2025 — Уже доступен
+            🏒 Сезон 26/27 — Уже доступен
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 max-w-4xl mx-auto leading-tight">
             NHL 27<br />
             <span className="text-[#4fc3f7]">для ПК</span>
           </h1>
           <h2 className="text-lg md:text-xl mb-10 text-gray-300 max-w-xl mx-auto">
-            Полноценный хоккейный симулятор на ПК — реальные составы, арены и геймплей сезона 2025
+            Полноценный хоккейный симулятор на ПК — реальные составы, арены и геймплей сезона 2026
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -195,14 +195,14 @@ export default function HeroSection() {
           </Canvas>
         </div>
         <div className="inline-block bg-[#4fc3f7]/10 border border-[#4fc3f7]/30 rounded-full px-4 py-1 text-[#4fc3f7] text-sm mb-5">
-          🏒 Сезон 2025 — Уже доступен
+          🏒 Сезон 26/27 — Уже доступен
         </div>
         <h1 className="text-4xl font-bold mb-3 leading-tight">
           NHL 27<br />
           <span className="text-[#4fc3f7]">для ПК</span>
         </h1>
         <p className="text-gray-300 text-base mb-8 max-w-sm">
-          Полноценный хоккейный симулятор — реальные составы, арены и геймплей сезона 2025
+          Полноценный хоккейный симулятор — реальные составы, арены и геймплей сезона 2026
         </p>
         <div className="flex flex-col w-full max-w-xs gap-3">
           <a
