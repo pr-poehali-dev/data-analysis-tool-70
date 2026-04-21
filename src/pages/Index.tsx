@@ -179,6 +179,7 @@ const Index = () => {
             href="https://yoomoney.ru/to/4100118962547616"
             target="_blank"
             rel="noopener noreferrer"
+            title="После оплаты пришли скриншот перевода в л/с сообщества ВКонтакте"
             className="bg-[#4fc3f7] text-[#050a18] font-bold py-3 px-8 rounded-md hover:bg-[#81d4fa] transition duration-300 text-lg"
           >
             Купить мод
@@ -292,6 +293,7 @@ const Index = () => {
                 href="https://yoomoney.ru/to/4100118962547616"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="После оплаты пришли скриншот перевода в л/с сообщества ВКонтакте"
                 className="block w-full bg-[#4fc3f7] text-[#050a18] font-bold py-3 rounded-md hover:bg-[#81d4fa] transition text-center"
               >
                 Купить мод
