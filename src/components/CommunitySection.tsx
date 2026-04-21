@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Icon from '@/components/ui/icon'
 
+const QR_URL = 'https://cdn.poehali.dev/projects/c44fc60d-ea72-4903-9457-95dfbd1975c6/bucket/198a6f0a-49f0-4d2b-b459-45931b8712d1.jpeg'
+
 const reviews = [
   {
     initial: 'А',
@@ -82,7 +84,37 @@ function ReviewsSlider() {
   )
 }
 
+function QRModal({ onClose }: { onClose: () => void }) {
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+      onClick={onClose}
+    >
+      <div
+        className="relative bg-[#071428] border border-[#4fc3f7]/30 rounded-2xl p-6 max-w-sm w-full text-center"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          onClick={onClose}
+          className="absolute top-3 right-3 text-gray-400 hover:text-white transition"
+        >
+          <Icon name="X" size={20} />
+        </button>
+        <p className="text-gray-300 text-sm mb-4 font-medium">Наведите камеру телефона на QR-код</p>
+        <img
+          src={QR_URL}
+          alt="QR-код YouTube канала"
+          className="w-full rounded-xl"
+        />
+        <p className="text-gray-500 text-xs mt-4">Откроется YouTube-канал с обзорами мода</p>
+      </div>
+    </div>
+  )
+}
+
 export default function CommunitySection() {
+  const [showQR, setShowQR] = useState(false)
+
   return (
     <>
       <ReviewsSlider />
@@ -95,17 +127,37 @@ export default function CommunitySection() {
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
             Отзывы покупателей NHL на пк, скриншоты, новости мода, полезные статьи и анонсы — всё в нашем сообществе
           </p>
-          <a
-            href="https://vk.ru/nhl_pc_global"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-[#0077ff] hover:bg-[#005ecc] text-white font-bold py-3 px-8 rounded-md transition duration-300"
-          >
-            <Icon name="ExternalLink" size={18} />
-            Перейти в сообщество ВК
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a
+              href="https://vk.ru/nhl_pc_global"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-[#0077ff] hover:bg-[#005ecc] text-white font-bold py-3 px-8 rounded-md transition duration-300"
+            >
+              <Icon name="ExternalLink" size={18} />
+              Перейти в сообщество ВК
+            </a>
+            <a
+              href="https://youtube.com/@bobjaman9327?si=1LM0QEaCr1WaGA6o"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-[#ff0000] hover:bg-[#cc0000] text-white font-bold py-3 px-8 rounded-md transition duration-300"
+            >
+              <Icon name="Play" size={18} />
+              YouTube-канал
+            </a>
+            <button
+              onClick={() => setShowQR(true)}
+              className="inline-flex items-center gap-3 bg-white/10 border border-white/20 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-md transition duration-300"
+            >
+              <Icon name="QrCode" size={18} />
+              QR-код
+            </button>
+          </div>
         </div>
       </section>
+
+      {showQR && <QRModal onClose={() => setShowQR(false)} />}
 
       {/* Footer */}
       <footer className="relative z-10 bg-[#050a18] border-t border-white/10 py-6 text-center text-gray-500 text-sm">
