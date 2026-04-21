@@ -67,7 +67,7 @@ function ReviewsSlider() {
           </div>
           <div className="text-center mt-8">
             <a
-              href="https://vk.ru/nhl_pc_global"
+              href="https://vk.ru/topic-201092136_55849445"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white font-semibold py-3 px-8 rounded-md hover:bg-white/20 transition"
