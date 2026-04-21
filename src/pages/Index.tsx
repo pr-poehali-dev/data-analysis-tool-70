@@ -175,9 +175,14 @@ const Index = () => {
           Полноценный хоккейный симулятор на ПК — реальные составы, арены и геймплей сезона 2025
         </h2>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-[#4fc3f7] text-[#050a18] font-bold py-3 px-8 rounded-md hover:bg-[#81d4fa] transition duration-300 text-lg">
+          <a
+            href="https://yoomoney.ru/to/4100118962547616"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#4fc3f7] text-[#050a18] font-bold py-3 px-8 rounded-md hover:bg-[#81d4fa] transition duration-300 text-lg"
+          >
             Купить мод
-          </button>
+          </a>
           <button className="bg-white/10 border border-white/20 text-white font-semibold py-3 px-8 rounded-md hover:bg-white/20 transition duration-300 text-lg backdrop-blur-sm">
             Скачать демо
           </button>
@@ -283,9 +288,14 @@ const Index = () => {
                 <li>✓ Поддержка и обновления</li>
                 <li>✓ Инструкция по установке</li>
               </ul>
-              <button className="w-full bg-[#4fc3f7] text-[#050a18] font-bold py-3 rounded-md hover:bg-[#81d4fa] transition">
+              <a
+                href="https://yoomoney.ru/to/4100118962547616"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-[#4fc3f7] text-[#050a18] font-bold py-3 rounded-md hover:bg-[#81d4fa] transition text-center"
+              >
                 Купить мод
-              </button>
+              </a>
             </div>
           </div>
         </div>
