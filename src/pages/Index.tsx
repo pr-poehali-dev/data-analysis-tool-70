@@ -366,6 +366,57 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Reviews */}
+      <section className="relative z-10 bg-[#050a18] py-16 border-t border-white/10">
+        <div className="max-w-6xl mx-auto px-4">
+          <h3 className="text-3xl md:text-4xl font-bold text-center mb-4">Отзывы покупателей</h3>
+          <p className="text-gray-400 text-center mb-12 max-w-xl mx-auto">Что говорят те, кто уже играл в NHL 26 PC Mod</p>
+          <div className="grid md:grid-cols-3 gap-6 mb-10">
+            <div className="bg-white/5 rounded-xl p-6 border border-white/10">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-[#4fc3f7]/20 flex items-center justify-center text-[#4fc3f7] font-bold">А</div>
+                <div>
+                  <div className="font-semibold text-sm">Алексей</div>
+                  <div className="text-yellow-400 text-xs">★★★★★</div>
+                </div>
+              </div>
+              <p className="text-gray-400 text-sm">«Играю с момента выхода NHL 26, мод огонь! Составы актуальные, работает стабильно. Жду 27-й!»</p>
+            </div>
+            <div className="bg-white/5 rounded-xl p-6 border border-white/10">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-[#4fc3f7]/20 flex items-center justify-center text-[#4fc3f7] font-bold">Д</div>
+                <div>
+                  <div className="font-semibold text-sm">Дмитрий</div>
+                  <div className="text-yellow-400 text-xs">★★★★★</div>
+                </div>
+              </div>
+              <p className="text-gray-400 text-sm">«Установил за 10 минут по инструкции. Всё понятно, поддержка отвечает быстро. Рекомендую!»</p>
+            </div>
+            <div className="bg-white/5 rounded-xl p-6 border border-white/10">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-[#4fc3f7]/20 flex items-center justify-center text-[#4fc3f7] font-bold">С</div>
+                <div>
+                  <div className="font-semibold text-sm">Сергей</div>
+                  <div className="text-yellow-400 text-xs">★★★★☆</div>
+                </div>
+              </div>
+              <p className="text-gray-400 text-sm">«Наконец-то НХЛ на ПК с нормальными составами. Брал NHL 26 — остался доволен, беру и 27-й.»</p>
+            </div>
+          </div>
+          <div className="text-center">
+            <a
+              href="https://vk.ru/nhl_pc_global"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white font-semibold py-3 px-8 rounded-md hover:bg-white/20 transition"
+            >
+              <Icon name="ExternalLink" size={16} />
+              Все отзывы в сообществе ВКонтакте
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* VK Community */}
       <section className="relative z-10 bg-[#050a18] py-16 border-t border-white/10">
         <div className="max-w-6xl mx-auto px-4 text-center">
